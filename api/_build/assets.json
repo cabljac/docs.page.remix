@@ -1,0 +1,68 @@
+{
+  "version": "76bcedb7",
+  "entry": {
+    "module": "/build/entry.client-WGACHNPU.js",
+    "imports": [
+      "/build/_shared/chunk-ROOE4DKD.js",
+      "/build/_shared/chunk-A5Y2R4GH.js",
+      "/build/_shared/chunk-IFFM4GWD.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/build/root-H55526G3.js",
+      "imports": [
+        "/build/_shared/chunk-SLTAHI5L.js",
+        "/build/_shared/chunk-J64ZY6DV.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": true,
+      "hasErrorBoundary": true
+    },
+    "routes/$owner.$repo.$": {
+      "id": "routes/$owner.$repo.$",
+      "parentId": "root",
+      "path": ":owner/:repo/*",
+      "module": "/build/routes/$owner.$repo.$-HFDRSRT5.js",
+      "imports": [
+        "/build/_shared/chunk-TOHMG5M6.js",
+        "/build/_shared/chunk-VPJ5S7MM.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": true,
+      "hasErrorBoundary": true
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/build/routes/index-NNZUTDXM.js",
+      "imports": [
+        "/build/_shared/chunk-VPJ5S7MM.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/preview": {
+      "id": "routes/preview",
+      "parentId": "root",
+      "path": "preview",
+      "module": "/build/routes/preview-SJWKDRF2.js",
+      "imports": [
+        "/build/_shared/chunk-TOHMG5M6.js",
+        "/build/_shared/chunk-VPJ5S7MM.js"
+      ],
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": true,
+      "hasErrorBoundary": true
+    }
+  },
+  "url": "/build/manifest-76BCEDB7.js"
+}
